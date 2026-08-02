@@ -1,0 +1,194 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.20.2
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/sean_doran/personal_website/.npmrc
+5 silly config load:file:/home/sean_doran/.npmrc
+6 silly config load:file:/usr/etc/npmrc
+7 verbose title npm install mongodb @dnd-kit/core @dnd-kit/sortable
+8 verbose argv "install" "mongodb" "@dnd-kit/core" "@dnd-kit/sortable"
+9 verbose logfile logs-max:10 dir:/home/sean_doran/.npm/_logs/2026-08-02T10_37_51_562Z-
+10 verbose logfile /home/sean_doran/.npm/_logs/2026-08-02T10_37_51_562Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest mongodb@*
+15 silly packumentCache full:https://registry.npmjs.org/mongodb cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/mongodb 825ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/mongodb set size:4617948 disposed:false
+18 silly fetch manifest @aws-sdk/credential-providers@^3.806.0
+19 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-providers cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fcredential-providers 36ms (cache hit)
+21 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-providers set size:2302503 disposed:false
+22 silly fetch manifest @mongodb-js/zstd@^7.0.0
+23 silly packumentCache full:https://registry.npmjs.org/@mongodb-js%2fzstd cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/@mongodb-js%2fzstd 10ms (cache hit)
+25 silly packumentCache full:https://registry.npmjs.org/@mongodb-js%2fzstd set size:97874 disposed:false
+26 silly fetch manifest gcp-metadata@^7.0.1
+27 silly packumentCache full:https://registry.npmjs.org/gcp-metadata cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/gcp-metadata 10ms (cache hit)
+29 silly packumentCache full:https://registry.npmjs.org/gcp-metadata set size:200440 disposed:false
+30 silly fetch manifest kerberos@^7.0.0
+31 silly packumentCache full:https://registry.npmjs.org/kerberos cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/kerberos 11ms (cache hit)
+33 silly packumentCache full:https://registry.npmjs.org/kerberos set size:117537 disposed:false
+34 silly fetch manifest mongodb-client-encryption@^7.2.0
+35 silly packumentCache full:https://registry.npmjs.org/mongodb-client-encryption cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/mongodb-client-encryption 10ms (cache hit)
+37 silly packumentCache full:https://registry.npmjs.org/mongodb-client-encryption set size:272853 disposed:false
+38 silly fetch manifest snappy@^7.3.2
+39 silly packumentCache full:https://registry.npmjs.org/snappy cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/snappy 11ms (cache hit)
+41 silly packumentCache full:https://registry.npmjs.org/snappy set size:185121 disposed:false
+42 silly fetch manifest socks@^2.8.6
+43 silly packumentCache full:https://registry.npmjs.org/socks cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/socks 9ms (cache hit)
+45 silly packumentCache full:https://registry.npmjs.org/socks set size:173143 disposed:false
+46 silly fetch manifest @dnd-kit/core@*
+47 silly packumentCache full:https://registry.npmjs.org/@dnd-kit%2fcore cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/@dnd-kit%2fcore 12ms (cache hit)
+49 silly packumentCache full:https://registry.npmjs.org/@dnd-kit%2fcore set size:381525 disposed:false
+50 silly fetch manifest react@19.2.4
+51 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/react 41ms (cache hit)
+53 silly packumentCache full:https://registry.npmjs.org/react set size:6859098 disposed:false
+54 silly fetch manifest react-dom@19.2.4
+55 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/react-dom 55ms (cache hit)
+57 silly packumentCache full:https://registry.npmjs.org/react-dom set size:9206376 disposed:false
+58 silly fetch manifest @dnd-kit/sortable@*
+59 silly packumentCache full:https://registry.npmjs.org/@dnd-kit%2fsortable cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/@dnd-kit%2fsortable 25ms (cache hit)
+61 silly packumentCache full:https://registry.npmjs.org/@dnd-kit%2fsortable set size:306409 disposed:false
+62 silly placeDep ROOT @dnd-kit/core@6.3.1 OK for: personal_website@0.1.0 want: *
+63 silly placeDep ROOT @dnd-kit/sortable@10.0.0 OK for: personal_website@0.1.0 want: *
+64 silly placeDep ROOT mongodb@7.5.0 OK for: personal_website@0.1.0 want: *
+65 silly fetch manifest @dnd-kit/accessibility@^3.1.1
+66 silly packumentCache full:https://registry.npmjs.org/@dnd-kit%2faccessibility cache-miss
+67 silly fetch manifest @dnd-kit/utilities@^3.2.2
+68 silly packumentCache full:https://registry.npmjs.org/@dnd-kit%2futilities cache-miss
+69 silly fetch manifest @dnd-kit/utilities@^3.2.2
+70 silly packumentCache full:https://registry.npmjs.org/@dnd-kit%2futilities cache-miss
+71 silly fetch manifest bson@^7.2.0
+72 silly packumentCache full:https://registry.npmjs.org/bson cache-miss
+73 silly fetch manifest @mongodb-js/saslprep@^1.4.11
+74 silly packumentCache full:https://registry.npmjs.org/@mongodb-js%2fsaslprep cache-miss
+75 silly fetch manifest mongodb-connection-string-url@^7.0.1
+76 silly packumentCache full:https://registry.npmjs.org/mongodb-connection-string-url cache-miss
+77 http fetch GET 200 https://registry.npmjs.org/@dnd-kit%2faccessibility 27ms (cache hit)
+78 silly packumentCache full:https://registry.npmjs.org/@dnd-kit%2faccessibility set size:40554 disposed:false
+79 http fetch GET 200 https://registry.npmjs.org/bson 27ms (cache hit)
+80 silly packumentCache full:https://registry.npmjs.org/bson set size:589688 disposed:false
+81 http fetch GET 200 https://registry.npmjs.org/@dnd-kit%2futilities 38ms (cache hit)
+82 silly packumentCache full:https://registry.npmjs.org/@dnd-kit%2futilities set size:247103 disposed:false
+83 http fetch GET 200 https://registry.npmjs.org/@mongodb-js%2fsaslprep 42ms (cache hit)
+84 silly packumentCache full:https://registry.npmjs.org/@mongodb-js%2fsaslprep set size:125713 disposed:false
+85 http fetch GET 200 https://registry.npmjs.org/@dnd-kit%2futilities 49ms (cache hit)
+86 silly packumentCache full:https://registry.npmjs.org/@dnd-kit%2futilities set size:247103 disposed:false
+87 silly packumentCache full:https://registry.npmjs.org/@dnd-kit%2futilities dispose
+88 http fetch GET 200 https://registry.npmjs.org/mongodb-connection-string-url 51ms (cache hit)
+89 silly packumentCache full:https://registry.npmjs.org/mongodb-connection-string-url set size:129665 disposed:false
+90 silly fetch manifest react@>=16.8.0
+91 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/react 36ms (cache hit)
+93 silly packumentCache full:https://registry.npmjs.org/react set size:6859098 disposed:false
+94 silly placeDep ROOT @dnd-kit/accessibility@3.1.1 OK for: @dnd-kit/core@6.3.1 want: ^3.1.1
+95 silly placeDep ROOT @dnd-kit/utilities@3.2.2 OK for: @dnd-kit/core@6.3.1 want: ^3.2.2
+96 silly placeDep ROOT @mongodb-js/saslprep@1.4.13 OK for: mongodb@7.5.0 want: ^1.4.11
+97 silly placeDep ROOT bson@7.3.1 OK for: mongodb@7.5.0 want: ^7.2.0
+98 silly placeDep ROOT mongodb-connection-string-url@7.0.2 OK for: mongodb@7.5.0 want: ^7.0.1
+99 silly fetch manifest sparse-bitfield@^3.0.3
+100 silly packumentCache full:https://registry.npmjs.org/sparse-bitfield cache-miss
+101 silly fetch manifest whatwg-url@^14.1.0
+102 silly packumentCache full:https://registry.npmjs.org/whatwg-url cache-miss
+103 silly fetch manifest @types/whatwg-url@^13.0.0
+104 silly packumentCache full:https://registry.npmjs.org/@types%2fwhatwg-url cache-miss
+105 http fetch GET 200 https://registry.npmjs.org/sparse-bitfield 37ms (cache hit)
+106 silly packumentCache full:https://registry.npmjs.org/sparse-bitfield set size:18366 disposed:false
+107 http fetch GET 200 https://registry.npmjs.org/whatwg-url 39ms (cache hit)
+108 silly packumentCache full:https://registry.npmjs.org/whatwg-url set size:177251 disposed:false
+109 http fetch GET 200 https://registry.npmjs.org/@types%2fwhatwg-url 52ms (cache hit)
+110 silly packumentCache full:https://registry.npmjs.org/@types%2fwhatwg-url set size:25750 disposed:false
+111 silly placeDep ROOT sparse-bitfield@3.0.3 OK for: @mongodb-js/saslprep@1.4.13 want: ^3.0.3
+112 silly fetch manifest memory-pager@^1.0.2
+113 silly packumentCache full:https://registry.npmjs.org/memory-pager cache-miss
+114 http fetch GET 200 https://registry.npmjs.org/memory-pager 9ms (cache hit)
+115 silly packumentCache full:https://registry.npmjs.org/memory-pager set size:21090 disposed:false
+116 silly placeDep ROOT @types/whatwg-url@13.0.0 OK for: mongodb-connection-string-url@7.0.2 want: ^13.0.0
+117 silly placeDep node_modules/mongodb-connection-string-url whatwg-url@14.2.0 OK for: mongodb-connection-string-url@7.0.2 want: ^14.1.0
+118 silly fetch manifest @types/webidl-conversions@*
+119 silly packumentCache full:https://registry.npmjs.org/@types%2fwebidl-conversions cache-miss
+120 silly fetch manifest tr46@^5.1.0
+121 silly packumentCache full:https://registry.npmjs.org/tr46 cache-miss
+122 silly fetch manifest webidl-conversions@^7.0.0
+123 silly packumentCache full:https://registry.npmjs.org/webidl-conversions cache-miss
+124 http fetch GET 200 https://registry.npmjs.org/@types%2fwebidl-conversions 13ms (cache hit)
+125 silly packumentCache full:https://registry.npmjs.org/@types%2fwebidl-conversions set size:22935 disposed:false
+126 http fetch GET 200 https://registry.npmjs.org/webidl-conversions 14ms (cache hit)
+127 silly packumentCache full:https://registry.npmjs.org/webidl-conversions set size:46073 disposed:false
+128 http fetch GET 200 https://registry.npmjs.org/tr46 18ms (cache hit)
+129 silly packumentCache full:https://registry.npmjs.org/tr46 set size:47377 disposed:false
+130 silly placeDep ROOT @types/webidl-conversions@7.0.3 OK for: @types/whatwg-url@13.0.0 want: *
+131 silly fetch manifest react@^16.6.0
+132 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+133 http fetch GET 200 https://registry.npmjs.org/react 26ms (cache hit)
+134 silly packumentCache full:https://registry.npmjs.org/react set size:6859098 disposed:false
+135 silly fetch manifest react-dom@^16.6.0
+136 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+137 http fetch GET 200 https://registry.npmjs.org/react-dom 34ms (cache hit)
+138 silly packumentCache full:https://registry.npmjs.org/react-dom set size:9206376 disposed:false
+139 verbose stack Error: could not resolve
+139 verbose stack     at PlaceDep.failPeerConflict (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:503:25)
+139 verbose stack     at new PlaceDep (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:157:21)
+139 verbose stack     at #buildDepStep (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:917:18)
+139 verbose stack     at async Arborist.buildIdealTree (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:181:7)
+139 verbose stack     at async Promise.all (index 1)
+139 verbose stack     at async Arborist.reify (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:131:5)
+139 verbose stack     at async Install.exec (/usr/lib/node_modules/npm/lib/commands/install.js:150:5)
+139 verbose stack     at async Npm.exec (/usr/lib/node_modules/npm/lib/npm.js:207:9)
+139 verbose stack     at async module.exports (/usr/lib/node_modules/npm/lib/cli/entry.js:74:5)
+140 error code ERESOLVE
+141 error ERESOLVE could not resolve
+142 error
+143 error While resolving: next@9.3.3
+143 error Found: react@19.2.4[2m[22m
+143 error [2mnode_modules/react[22m
+143 error   [95mpeer[39m react@"^19.2.4" from react-dom@19.2.4[2m[22m
+143 error   [2mnode_modules/react-dom[22m
+143 error     react-dom@"19.2.4" from the root project
+143 error     [95mpeer[39m react-dom@">=16.8.0" from @dnd-kit/core@6.3.1[2m[22m
+143 error     [2mnode_modules/@dnd-kit/core[22m
+143 error       @dnd-kit/core@"*" from the root project
+143 error       1 more (@dnd-kit/sortable)
+143 error   react@"19.2.4" from the root project
+143 error   4 more (@dnd-kit/core, @dnd-kit/sortable, ...)
+143 error
+143 error Could not resolve dependency:
+143 error [95mpeer[39m react@"^16.6.0" from next@9.3.3[2m[22m
+143 error [2mnode_modules/next[22m
+143 error   next@"^9.3.3" from the root project
+143 error
+143 error Conflicting peer dependency: react@16.14.0[2m[22m
+143 error [2mnode_modules/react[22m
+143 error   [95mpeer[39m react@"^16.6.0" from next@9.3.3[2m[22m
+143 error   [2mnode_modules/next[22m
+143 error     next@"^9.3.3" from the root project
+143 error
+143 error Fix the upstream dependency conflict, or retry
+143 error this command with --force or --legacy-peer-deps
+143 error to accept an incorrect (and potentially broken) dependency resolution.
+144 error
+144 error
+144 error For a full report see:
+144 error /home/sean_doran/.npm/_logs/2026-08-02T10_37_51_562Z-eresolve-report.txt
+145 silly unfinished npm timer reify 1785667072125
+146 silly unfinished npm timer reify:loadTrees 1785667072134
+147 silly unfinished npm timer idealTree:buildDeps 1785667073451
+148 silly unfinished npm timer idealTree:node_modules/next 1785667075146
+149 verbose cwd /home/sean_doran/personal_website
+150 verbose os Linux 6.6.119-09283-g9c138e0af8c3
+151 verbose node v20.20.2
+152 verbose npm  v10.8.2
+153 verbose exit 1
+154 verbose code 1
+155 error A complete log of this run can be found in: /home/sean_doran/.npm/_logs/2026-08-02T10_37_51_562Z-debug-0.log
