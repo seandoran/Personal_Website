@@ -1,0 +1,65 @@
+/* src/app/home.module.css */
+.hero {
+  background: linear-gradient(to right, #8a2be2, #4a00e0);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+/* src/app/home.module.css */
+
+/* 1. The Responsive Grid Container */
+.gridContainer {
+  display: grid;
+  /* Creates a 3-column layout on desktop, shrinking dynamically */
+  grid-template-columns: repeat(3, minmax(0, 1fr)); 
+  /* Automatically generates rows based on content height */
+  grid-auto-rows: minmax(150px, auto); 
+  gap: 1.5rem; /* The spacing between your cards */
+  padding: 2rem;
+}
+
+/* 2. Card Variant: Stretches across 2 columns and 2 rows */
+.bigCard {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: #1e1e24; /* Example styling */
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+/* 3. Card Variant: Stretches wide (2 columns, 1 row) */
+.wideCard {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: #2a2a35;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+/* 4. Standard Card: Takes up exactly 1 slot */
+.standardCard {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: #333344;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+/* 5. Mobile Responsiveness */
+@media (max-width: 768px) {
+  .gridContainer {
+    /* On mobile, collapse everything into 1 single column */
+    grid-template-columns: 1fr; 
+  }
+  
+  /* Reset spans on mobile so cards don't look squished */
+  .bigCard, .wideCard, .standardCard {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+}
