@@ -6,75 +6,82 @@ import { BentoGrid, BentoCard } from "@/components/BentoGrid"
 export default function Home() {
   return (
     <main>
-      <BentoGrid className="grid-cols-3">
-        {/* Card 1: Spans 2 columns on large screens */}
-        <BentoCard className="md:col-span-2 lg:col-span-2">
+      <BentoGrid  className="grid-cols-4">
+        {/* Card 1: Hero Card */}
+        <BentoCard href="/about" class="BentoCard" className="md:col-span-2 lg:col-span-2 row-span-2">
           <div>
-            <h1 className="text-xl font-semibold text-purple-400 uppercase tracking-wider">Hero Card</h1>
-            <h3 className="text-xs font-bold mt-2">Crafting Systems: Code, Crafts & Concepts.</h3>
+            <h1>Hero Card</h1>
+            <h3>Crafting Systems: Code, Crafts & Concepts.</h3>
           </div>
-          <p className="text-neutral-400 text-sm mt-2">
+          <h4>Photography: systems tools or crafting components. more likely art then a photograph</h4>
+          <p>
             Short BIO and Philosophy!
           </p>
         </BentoCard>
 
-        {/* Card 2: Tall item spanning 2 rows */}
-        <BentoCard>
+        {/* Card 2: Case Study! */}
+        <BentoCard class="BentoCard">
           <div>
-            <span className="text-xs font-semibold text-green-400 uppercase tracking-wider">Featured Case Study</span>
-            <h3 className="text-xl font-bold mt-2">Full Stack Productivity Dashboard!</h3>
+            <span>Featured Case Study</span>
+            <h3>Full Stack Productivity Dashboard!</h3>
           </div>
-          <p className="text-neutral-400 text-sm mt-2">
-            
-          </p>
+          <h4>Photography: A photograph of a whiteboard set up as a kanban board with a man in a suit infront of it.</h4>
         </BentoCard>
 
-        {/* Card 3: Standard single cell */}
-        <BentoCard>
+        {/* Card 3: Game Development */}
+        <BentoCard class="BentoCard">
           <div>
-            <span className="text-xs font-semibold text-amber-400 uppercase tracking-wider">gameDev Systems</span>
-            <h3 className="text-xl font-bold mt-2">Procedural Generation and Godot Games!</h3>
+            <span>gameDev Systems</span>
+            <h3>Procedural Generation and Godot Games!</h3>
           </div>
+          <h4>Photography: A close up photograph of my backgammon board mid legal move.</h4>
+
         </BentoCard>
 
-        {/* Card 4: Spans 2 columns on medium screens */}
+        {/* Card 4: Idea Garden */}
         <BentoCard className="md:col-span-2 lg:col-span-2">
           <div>
-            <span className="text-xs font-semibold text-blue-400 uppercase tracking-wider">Idea Garden</span>
-            <h3 className="text-xl font-bold mt-2">A botanical framework for personal management, idea nourishment and long-form thinking!</h3>
+            <span>Idea Garden</span>
+            <h3>
+              A botanical framework for personal management, idea nourishment and long-form thinking!
+            </h3>
           </div>
+          <h4>Photography: A rotating photograph of gardens and my plants i am growing</h4>
+
         </BentoCard>
 
-        {/* Card 5: Large accent card spanning 2 columns and 1 row */}
+        {/* Card 5: Tailoring Log */}
         <BentoCard className="md:col-span-1 lg:col-span-1">
           <div>
-            <span className="text-xs font-semibold text-green-400 uppercase tracking-wider">Tailoring Logs</span>
-            <h3 className="text-xl font-bold mt-2">Garment Construction!</h3>
+            <span>Tailoring Logs</span>
+            <h3>Garment Construction!</h3>
           </div>
-          <p className="text-neutral-400 text-sm mt-2">
+          <h4>Photography: An action shot of me cutting a piece of tweed/cordoroy cloth. brightly coloured or patterned.</h4>
+
+          <p>
             Pattern making!
           </p>
         </BentoCard>
 
-        {/* Card 6: Large accent card spanning 2 columns and 1 row */}
-        <BentoCard className="md:col-span-1 lg:col-span-1">
+        {/* Card 6: Bookstagram*/}
+        <BentoCard className="md:col-span-1, col-start-1 lg:col-span-1, col-start-1">
           <div>
-            <span className="text-xs font-semibold text-yellow-400 uppercase tracking-wider">Sean'sScholia & Reading Log</span>
-            <h3 className="text-xl font-bold mt-2">My Bookstagram Account!</h3>
+            <span>Sean'sScholia & Reading Log</span>
+            <h3 >My Bookstagram Account!</h3>
           </div>
-          <p className="text-neutral-400 text-sm mt-2">
+          <h4>Photography: A Photograph of books or bookshelves with my Bookstagram logo over the top</h4>
+          <p>
             How-to to my 4 coulour highlighter annotation system!
           </p>
         </BentoCard>
 
-        {/* Card 7: Large accent card spanning 2 columns and 1 row */}
+        {/* Card 7: TTRPG & World Building Blog */}
         <BentoCard className="md:col-span-1 lg:col-span-1">
           <div>
-            <span className="text-xs font-semibold text-pink-400 uppercase tracking-wider">World Building & TTRPG Systems</span>
-            <h3 className="text-xl font-bold mt-2">Characters, Factions and more!</h3>
+            <span>World Building & TTRPG Systems</span>
+            <h3>Characters, Factions and more!</h3>
           </div>
-          <p className="text-neutral-400 text-sm mt-2">
-          </p>
+          <h4>Photography: A close up action shot of a d20 rolling in the primary focus colour of my website."</h4>
         </BentoCard>
       </BentoGrid>
     </main>

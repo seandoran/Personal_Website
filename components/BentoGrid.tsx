@@ -1,4 +1,5 @@
 // components/BentoGrid.tsx
+import Link from 'next/link';
 import React from "react";
 
 export const BentoGrid = ({ children }: { children: React.ReactNode }) => {
@@ -20,15 +21,55 @@ export const BentoGrid = ({ children }: { children: React.ReactNode }) => {
 export const BentoCard = ({
   className = "",
   children,
+  href
 }: {
   className?: string;
   children: React.ReactNode;
 }) => {
-  return (
-    <div
-      className={`bg-neutral-900 border border-neutral-800 rounded-3xl p-6 flex flex-col justify-between overflow-hidden shadow-sm transition-all duration-300 hover:shadow-md ${className}`}
-    >
-      {children}
-    </div>
-  );
+    const hoverClass = ` 
+                        rounded-3xl 
+                        p-6 
+                        flex 
+                        flex-col 
+                        justify-between 
+                        overflow-hidden 
+                        shadow-sm  
+                        hover:-translate-y-1 
+                        transition-all 
+                        duration-300 
+                        hover:shadow-md ${className}`;
+    const CardClass = `
+                        rounded-3xl 
+                        p-6 
+                        flex 
+                        flex-col 
+                        justify-between 
+                        overflow-hidden 
+                        shadow-sm   
+                        transition-all 
+                        duration-300 
+                        hover:shadow-md ${className}`;
+    const cardStyle = { 
+        backgroundColor: "#9EBB97", 
+        color: "#306238" 
+    };
+
+    if (href) {
+        return (
+            <Link 
+                href={href}  
+                style={cardStyle}  
+                className={hoverClass}
+            >
+                {children}
+            </Link>
+        );
+    } return (
+        <div
+            style={cardStyle}  
+            className={CardClass}
+        >
+            {children}
+        </div>
+    );
 };
