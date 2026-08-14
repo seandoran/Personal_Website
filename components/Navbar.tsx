@@ -48,7 +48,7 @@ export default function Navbar() {
           <div className="flex h-16 items-center justify-between">
             {/* Logo Section */}
             <div className="flex-shrink-0">
-              <Link href="/" className="text-xl font-bold text-gray-900 dark:text-white">
+              <Link href="/" className="text-4xl text-gray-900 dark:text-white font-navbar" >
                 Sean Doran
               </Link>
             </div>

@@ -1,89 +1,129 @@
 
 // src/app/page.tsx
 import styles from './home.module.css';
-import { BentoGrid, BentoCard } from "@/components/BentoGrid"
+import { BentoGrid, BentoCard } from "@/components/BentoGrid";
+import HeroSection from '@/components/HeroSection';
 
 export default function Home() {
   return (
     <main>
-      <BentoGrid  className="grid-cols-4">
-        {/* Card 1: Hero Card */}
-        <BentoCard href="/about" class="BentoCard" className="md:col-span-2 lg:col-span-2 row-span-2">
+      <HeroSection />
+      <div id="bento-grid" className="scroll-mt-16 max-w-7xl mx-auto px-6 py-12">
+      <BentoGrid className="grid-cols-4">
+        {/* Card 1: Idea Garden*/}
+        <BentoCard href="/about" class="BentoCard" className="md:col-span-2 lg:col-span-2 row-span-1">
           <div>
-            <h1>Hero Card</h1>
-            <h3>Crafting Systems: Code, Crafts & Concepts.</h3>
+            <h1 className="font-bold">🧠 THE IDEA GARDEN</h1>
+            <p> 
+              The digital home for my mind. 
+              A hyperlinked personal wiki where raw thoughts, essays, 
+              and research are tended into mature concepts.<br />
+            </p>
+            <h3 className="font-bold">Integrated Modules:</h3>
+            <ul>
+               <li>🎨 Art History Log (Analysis & Visual Notes)</li>
+               <li>🎲 Lore & Worldbuilding (TTRPG Systems)</li>
+            </ul>
+            <div className="inline-flex items-center gap-2 text-stone-500 hover:text-stone-300 font-mono text-xs cursor-pointer focus:outline-none">
+              <span>Open The Idea Garden</span>
+              <svg className="w-3.5 h-3.5 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
+            </div>
           </div>
-          <h4>Photography: systems tools or crafting components. more likely art then a photograph</h4>
-          <p>
-            Short BIO and Philosophy!
-          </p>
+          
         </BentoCard>
 
-        {/* Card 2: Case Study! */}
-        <BentoCard class="BentoCard">
+        {/* Card 2: Blog */}
+        <BentoCard href="/about" class="BentoCard" className="md:col-span-1 lg:col-span-1 row-span-2">
           <div>
-            <span>Featured Case Study</span>
-            <h3>Full Stack Productivity Dashboard!</h3>
+            <h1 className="font-bold">THE FLOWER STAND (BLOG)</h1>
+            <h3>🌹 ESSAYS, BLOG, & DISPATCHES</h3>
+            <p className="italic"> Polished public writings and deep dives into systems and culture.</p>
+          <h4 className="font-bold">Latest Posts:</h4>
+          <ul>
+            <li>• "Tending to Systems in 2026"</li>
+            <li>• "On Renaissance Perspective"</li>
+          </ul>
           </div>
-          <h4>Photography: A photograph of a whiteboard set up as a kanban board with a man in a suit infront of it.</h4>
+          
         </BentoCard>
 
-        {/* Card 3: Game Development */}
-        <BentoCard class="BentoCard">
+        {/* Card 3: Living Ledger */}
+        <BentoCard href="/about" class="BentoCard" className="md:col-span-2 lg:col-span-2 row-span-1">
           <div>
-            <span>gameDev Systems</span>
-            <h3>Procedural Generation and Godot Games!</h3>
+            <h1 className="font-bold"> 📖 THE LIVING LEDGER </h1>
+            <p> 
+              The digital steward for my physical world. A custom 
+              app tracking lifespans, maintenance, and usage 
+              cycles of my tangible belongings. <br />
+            </p>
+            <h3 className="font-bold">Integrated Modules:</h3>
+            <ul>
+               <li>📚 Library, EDC, & Personal Gear</li>
+               <li>🪴 Botany & Soil Log (Terracotta Systems) </li>
+               <li>🧵 The Wardrobe Roll (Tailoring Wear Cycles)</li>
+            </ul>
           </div>
-          <h4>Photography: A close up photograph of my backgammon board mid legal move.</h4>
+          <div
+          className="inline-flex items-center gap-2 text-stone-500 hover:text-stone-300 font-mono text-xs cursor-pointer focus:outline-none"
+        >
+          <span>Inspect The Living Ledger</span>
+          <svg className="w-3.5 h-3.5 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+          </svg>
+        </div>
 
         </BentoCard>
 
-        {/* Card 4: Idea Garden */}
-        <BentoCard className="md:col-span-2 lg:col-span-2">
+        {/* Card 4: Literary Scholia */}
+        <BentoCard href="/about" className="md:col-span-1 lg:col-span-1">
           <div>
-            <span>Idea Garden</span>
-            <h3>
-              A botanical framework for personal management, idea nourishment and long-form thinking!
-            </h3>
+            <h1 className='font-bold'>📚 @SeansScholia Feed</h1>
+            <p>
+             Classic literature breakdowns,
+             four-colour pen annotations, and
+             reading logs.
+            </p>
           </div>
-          <h4>Photography: A rotating photograph of gardens and my plants i am growing</h4>
+          <div className="inline-flex items-center gap-2 text-stone-500 hover:text-stone-300 font-mono text-xs cursor-pointer focus:outline-none">
+              <span>View Bookstagram Archive</span>
+              <svg className="w-3.5 h-3.5 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
+            </div>
 
         </BentoCard>
 
-        {/* Card 5: Tailoring Log */}
-        <BentoCard className="md:col-span-1 lg:col-span-1">
+        {/* Card 5: TTRPG & world Bulding */}
+        <BentoCard href="/about" className="md:col-span-1 lg:col-span-1">
           <div>
-            <span>Tailoring Logs</span>
-            <h3>Garment Construction!</h3>
+            <h1 className='font-bold'>🎲 Worldbuilding & Factions</h1>
+            <p>
+              Political webs, ecological systems
+              and campaign lore for tabletop
+              games.
+            </p>
           </div>
-          <h4>Photography: An action shot of me cutting a piece of tweed/cordoroy cloth. brightly coloured or patterned.</h4>
-
-          <p>
-            Pattern making!
-          </p>
+          <div className="inline-flex items-center gap-2 text-stone-500 hover:text-stone-300 font-mono text-xs cursor-pointer focus:outline-none">
+            <span>Explore Lore Systems</span>
+            <svg className="w-3.5 h-3.5 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            </svg>
+          </div>
         </BentoCard>
 
-        {/* Card 6: Bookstagram*/}
-        <BentoCard className="md:col-span-1, col-start-1 lg:col-span-1, col-start-1">
+        {/* Card 6: GameDev*/}
+        <BentoCard href="/about" className="md:col-span-1, col-start-1 lg:col-span-1">
           <div>
-            <span>Sean'sScholia & Reading Log</span>
-            <h3 >My Bookstagram Account!</h3>
+            <h1 className='font-bold'>⚙️ GameDEV</h1>
+            <p>
+              Interactive Rules & Godot procedural experiments.
+            </p>
           </div>
-          <h4>Photography: A Photograph of books or bookshelves with my Bookstagram logo over the top</h4>
-          <p>
-            How-to to my 4 coulour highlighter annotation system!
-          </p>
-        </BentoCard>
-
-        {/* Card 7: TTRPG & World Building Blog */}
-        <BentoCard className="md:col-span-1 lg:col-span-1">
-          <div>
-            <span>World Building & TTRPG Systems</span>
-            <h3>Characters, Factions and more!</h3>
-          </div>
-          <h4>Photography: A close up action shot of a d20 rolling in the primary focus colour of my website."</h4>
         </BentoCard>
       </BentoGrid>
+      </div>
     </main>
   );
 }
