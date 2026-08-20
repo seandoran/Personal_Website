@@ -46,7 +46,7 @@ export default function HeroSection() {
           
           {/* Idea Garden Link */}
           <a
-            href="#idea-garden"
+            href="/idea_garden"
             className="group relative inline-flex items-center gap-2.5 px-5 py-3 rounded-xl bg-emerald-950/40 border border-emerald-800/50 text-emerald-300 font-sans text-sm font-medium hover:bg-emerald-900/50 hover:border-emerald-600/60 transition-all duration-200 shadow-sm"
           >
             {/* Brain/Mind SVG */}
