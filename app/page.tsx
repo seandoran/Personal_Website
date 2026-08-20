@@ -9,9 +9,9 @@ export default function Home() {
     <main>
       <HeroSection />
       <div id="bento-grid" className="scroll-mt-16 max-w-7xl mx-auto px-6 py-12">
-      <BentoGrid className="grid-cols-4">
+      <BentoGrid>
         {/* Card 1: Idea Garden*/}
-        <BentoCard href="/about" class="BentoCard" className="md:col-span-2 lg:col-span-2 row-span-1">
+        <BentoCard href="/about" className=" BentoCard md:col-span-2 lg:col-span-2 row-span-1">
           <div>
             <h1 className="font-bold">🧠 THE IDEA GARDEN</h1>
             <p> 
@@ -35,7 +35,7 @@ export default function Home() {
         </BentoCard>
 
         {/* Card 2: Blog */}
-        <BentoCard href="/about" class="BentoCard" className="md:col-span-1 lg:col-span-1 row-span-2">
+        <BentoCard href="/about" className="BentoCard md:col-span-1 lg:col-span-1 row-span-2">
           <div>
             <h1 className="font-bold">THE FLOWER STAND (BLOG)</h1>
             <h3>🌹 ESSAYS, BLOG, & DISPATCHES</h3>
@@ -50,7 +50,7 @@ export default function Home() {
         </BentoCard>
 
         {/* Card 3: Living Ledger */}
-        <BentoCard href="/about" class="BentoCard" className="md:col-span-2 lg:col-span-2 row-span-1">
+        <BentoCard href="/about"  className="BentoCard md:col-span-2 lg:col-span-2 row-span-1">
           <div>
             <h1 className="font-bold"> 📖 THE LIVING LEDGER </h1>
             <p> 

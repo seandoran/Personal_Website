@@ -25,6 +25,7 @@ export const BentoCard = ({
 }: {
   className?: string;
   children: React.ReactNode;
+  href?: string; 
 }) => {
     const hoverClass = ` 
                         rounded-3xl 
